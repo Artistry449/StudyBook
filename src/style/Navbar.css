@@ -1,0 +1,26 @@
+#navbar {
+    width: 100%;
+    padding: 20px 20px;
+    /* border-bottom: 1px solid #ccc; */
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #ededed;
+    /* flex-flow: row wrap; */
+}
+
+#nav-buttons {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.menuButton {
+    padding: 10px 20px;
+    background-color: #c7a292;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+}
