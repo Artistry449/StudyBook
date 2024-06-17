@@ -3,7 +3,6 @@ import { faUser } from '@fortawesome/free-solid-svg-icons';
 import { Link } from 'react-router-dom';
 
 import MenuButton from '../MenuButton/MenuButton';
-
 import "./Navbar.css"
 
 const Navbar = () => {

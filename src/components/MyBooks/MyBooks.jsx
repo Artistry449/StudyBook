@@ -4,7 +4,7 @@ import LocalLibraryIcon from "@mui/icons-material/LocalLibrary";
 
 import BookImage from "./Example_book.png";
 import "./MyBook.css";
-import Book from "./../Book/Book";
+import Book from "../Book/Book";
 
 export default function MyBooks() {
     const [openAddBook, setOpenAddBook] = React.useState(false);
