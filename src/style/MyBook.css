@@ -1,0 +1,16 @@
+.mybooks_container {}
+
+.mybooks_container_top {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 5%;
+    margin-top: 2%;
+}
+
+.mybooks_container_content {}
+
+.books_container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}

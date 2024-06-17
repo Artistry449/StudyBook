@@ -1,9 +1,10 @@
 import { Button, Dialog, DialogActions, DialogContent, DialogContentText, DialogTitle, SvgIcon, TextField } from "@mui/material"
 import React from "react"
-import LocalLibraryIcon from '@mui/icons-material/LocalLibrary';
+import LocalLibraryIcon from "@mui/icons-material/LocalLibrary";
 import Book from "./Book";
 
-import BookImage from '../img/Example_book.png';
+import BookImage from "../img/Example_book.png";
+import "../style/MyBook.css";
 
 export default function MyBooks() {
     const [openAddBook, setOpenAddBook] = React.useState(false);
@@ -19,14 +20,6 @@ export default function MyBooks() {
         <div className="mybooks_container">
 
             <React.Fragment>
-                <Button
-                    sx={{
-                        backgroundColor: "#c7a292"
-                    }}
-                    variant="contained"
-                    onClick={handleClickOpenAddBook}>
-                    <SvgIcon component={LocalLibraryIcon} inheritViewBox /> Ном нэмэх
-                </Button>
                 <Dialog
                     open={openAddBook}
                     onClose={handleClickCloseAddBook}
@@ -86,7 +79,30 @@ export default function MyBooks() {
                 </Dialog>
             </React.Fragment>
 
-            <Book name="Grokking Algorithm" description="Bla bla" goal="Algorithmdaa lag boloh gj hhe" img={BookImage} />
+
+            <div className="mybooks_container_top">
+                <Button
+                    sx={{
+                        backgroundColor: "#c7a292"
+                    }}
+                    variant="contained"
+                    onClick={handleClickOpenAddBook}>
+                    <SvgIcon component={LocalLibraryIcon} inheritViewBox /> Ном нэмэх
+                </Button>
+            </div>
+
+            <div className="mybooks_container_content">
+                <div className="books_container">
+                    <Book name="Grokking Algorithm" description="Bla bla" goal="Algorithmdaa lag boloh gj hhe" img={BookImage} />
+                    <Book name="Grokking Algorithm" description="Bla bla" goal="Algorithmdaa lag boloh gj hhe" img={BookImage} />
+                    <Book name="Grokking Algorithm" description="Bla bla" goal="Algorithmdaa lag boloh gj hhe" img={BookImage} />
+                    <Book name="Grokking Algorithm" description="Bla bla" goal="Algorithmdaa lag boloh gj hhe" img={BookImage} />
+                    <Book name="Grokking Algorithm" description="Bla bla" goal="Algorithmdaa lag boloh gj hhe" img={BookImage} />
+                    <Book name="Grokking Algorithm" description="Bla bla" goal="Algorithmdaa lag boloh gj hhe" img={BookImage} />
+                    <Book name="Grokking Algorithm" description="Bla bla" goal="Algorithmdaa lag boloh gj hhe" img={BookImage} />
+                    <Book name="Grokking Algorithm" description="Bla bla" goal="Algorithmdaa lag boloh gj hhe" img={BookImage} />
+                </div>
+            </div>
         </div>
     )
 }

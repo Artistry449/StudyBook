@@ -1,0 +1,32 @@
+.feature-item {
+    list-style: circle;
+    padding: 10px 0;
+}
+
+.feature {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.feature-caption {
+    /* flex-grow: 1; */
+    margin: 0;
+    font-size: 1rem;
+}
+
+.feature-icon {
+    font-size: 1.5rem;
+    vertical-align: middle;
+}
+
+@media (max-width: 768px) {
+    .feature {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .feature-caption {
+        margin-bottom: 5px;
+    }
+}
