@@ -1,5 +1,5 @@
 import React from 'react';
-import "../style/Book.css"
+import "./Book.css"
 
 export default function Book({ name, description, goal, img }) {
     return (

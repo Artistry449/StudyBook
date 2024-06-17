@@ -1,6 +1,6 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import React from 'react'
-import "./../style/Feature.css"
+import React from 'react';
+import "./Feature.css"
 
 export default function ListFeature({ caption, icon, size }) {
     return (

@@ -4,11 +4,11 @@ import { faBarsProgress, faFileSignature } from '@fortawesome/free-solid-svg-ico
 import { faLanguage } from '@fortawesome/free-solid-svg-icons';
 import { faStar } from '@fortawesome/free-solid-svg-icons';
 import { faBrain } from '@fortawesome/free-solid-svg-icons';
-import ListFeature from './ListFeature';
+import ListFeature from '../Feature/ListFeature';
 
-import BookImage from '../img/Home_Book_img.jpg';
+import BookImage from "./Home_Book_img.jpg";
 
-import "../style/Home.css";
+import "./Home.css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 export default function Home() {

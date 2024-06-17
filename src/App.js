@@ -1,9 +1,9 @@
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 
-import Navbar from "./components/Navbar";
 import "./global.css"
-import Home from "./components/Home";
-import MyBooks from "./components/MyBooks";
+import Navbar from "./components/Navbar/Navbar";
+import Home from "./components/Home/Home";
+import MyBooks from "./components/MyBooks/MyBooks";
 
 function App() {
   return (

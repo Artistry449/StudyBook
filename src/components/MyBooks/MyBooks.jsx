@@ -1,10 +1,10 @@
 import { Button, Dialog, DialogActions, DialogContent, DialogContentText, DialogTitle, SvgIcon, TextField } from "@mui/material"
 import React from "react"
 import LocalLibraryIcon from "@mui/icons-material/LocalLibrary";
-import Book from "./Book";
 
-import BookImage from "../img/Example_book.png";
-import "../style/MyBook.css";
+import BookImage from "./Example_book.png";
+import "./MyBook.css";
+import Book from "./../Book/Book";
 
 export default function MyBooks() {
     const [openAddBook, setOpenAddBook] = React.useState(false);

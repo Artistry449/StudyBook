@@ -1,8 +1,10 @@
-import MenuButton from './MenuButton';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faUser } from '@fortawesome/free-solid-svg-icons';
-import "./../style/Navbar.css";
 import { Link } from 'react-router-dom';
+
+import MenuButton from '../MenuButton/MenuButton';
+
+import "./Navbar.css"
 
 const Navbar = () => {
 
